@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Home - FOCAL Education System</title>
+   <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+   
+<!----------------------------HEADER SECTION------------------------------->
+
+<header class="header">
+
+        <div class="logo">
+            <img src="images/Focal%20logo_black.png">
+        </div>
+        <ul class="navigation">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#classes">Classes</a></li>
+            <li><a href="#events">Events</a></li>
+        </ul>
+    
+    
+        <div class="action">
+                <div class="profile" onclick="menuToggle();">
+                    <img src="images/profile_img.jpg">
+                </div>
+                <div class="menu">
+                    <h3>Joseph Fisher<br><span>Grade 2D</span></h3>
+                    <ul>
+                        <li><img src="images/profile.png"><a href="#">My Profile</a></li>
+                        <li><img src="images/timetable_icon.png"><a href="#">My Timetable</a></li>
+                        <li><img src="images/logout.png"><a href="#">Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+
+            <script>
+                function menuToggle()
+                {
+                    const toogleMenu = document.querySelector('.menu');
+                    toogleMenu.classList.toggle('active')
+                }
+            </script>
+    
+</header>
+
+
+    
+<!----------------------------HOME SECTION------------------------------->
+
+<section class="home" id="home">
+
+
+</section> 
+
+    
+<!----------------------------CLASSES SECTION------------------------------->
+    
+<section id="classes"  class="subjects">
+    
+        <br><br><br>
+    
+        <h1 class="heading">Class Information</h1>
+
+       <div class="box-container">
+
+          <div class="box">
+             <img src="images/subject-icon-1.png" alt="">
+             <h3>Art</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+           
+           <div class="box">
+             <img src="images/book.png" alt="">
+             <h3>English</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+           
+           <div class="box">
+             <img src="images/subject-icon-5.png" alt="">
+             <h3>Integrated Science</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+
+          <div class="box">
+             <img src="images/subject-icon-6.png" alt="">
+             <h3>Mathemetics</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+           
+           <div class="box">
+             <img src="images/music_icon.png" alt="">
+             <h3>Music</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+           
+           <div class="box">
+             <img src="images/PE_icon.jpg" alt="">
+             <h3>Physical Education</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+           
+           <div class="box">
+             <img src="images/prayer.png" alt="">
+             <h3>Religious Education</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+
+          <div class="box">
+             <img src="images/subject-icon-3.png" alt="">
+             <h3>Social Studies</h3>
+             <p>Lisa Fearonson</p>
+          </div>
+
+       </div>
+
+</section>
+
+        
+<!--------------------UPCOMING EVENTS SECTION------------------------------->
+    
+    <section id="events"  class="events">
+        
+        <h1 class="heading">Upcoming Events</h1>
+        
+        <div class="posters">
+            <img src="images/PTA_poster.jpg">
+            <img src="images/SPORTS_DAY.jpg">
+            <img src="images/spelling_bee.jpg">
+        </div>
+        
+    </section>
+    
+    
+    
+<!----------------------------FOOTER SECTION------------------------------->
+
+<footer>
+
+    <p>Copyright 2021 | <a href="#">Created By VIT Creations </a>| All Rights Reserved.</p>
+
+</footer>
+    
+</body>
+</html>
